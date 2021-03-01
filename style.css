@@ -1,0 +1,7 @@
+body{
+    background-color:grey;
+}
+canvas{
+    border:5px ridge white;
+    background-color:whitesmoke;
+}

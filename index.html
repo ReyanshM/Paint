@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="set_dimensions()">
+    <center class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+        <h1>My Canvas</h1>
+        <canvas id="Canvas" height="450" width="800">
+
+        </canvas>
+        <br>
+        <input id="color" type="color">
+        <hr>
+        <input id="width_" type="number" value="3">
+        <hr>
+        <input id="Radius" type="number" value="40">
+        <br>
+        <br>
+        <button id="clear" onclick="clear_canvas()">Clear</button>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
